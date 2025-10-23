@@ -1,0 +1,524 @@
+@media (min-width: 801px) and (max-width: 2000px){
+    .nav-mobile{
+        display: none;
+
+    }
+    .nav-mobile.show{
+        display: none;
+    }
+}
+
+@media (max-width: 1130px){
+    .headline h1{
+        font-size: clamp(3rem, 6vw + 1rem , 7.80rem);
+    }
+}
+
+@media (max-width: 920px){
+    .call-action h3{
+        font-size: clamp(1rem, 6vw + 1rem, 3rem);
+    }
+
+    .call-action{
+        height: 35vh;
+    }
+}
+
+@media (max-width: 800px){
+    .headline h1{
+        font-size: clamp(1rem, 5vw + 1rem , 4rem);
+    }
+    .hero-section{
+        display: block;
+    }
+
+    .hero-section .format h2{
+        font-size: clamp(1rem, 4vw, 2.5rem);
+    }
+
+    .hero-image img{
+        border-bottom:1px solid black;
+        height: 50vh;
+    }
+
+    .hero-image{
+        border-bottom:1px solid black;
+        height: 50vh;
+    }
+
+    .call-action h3{
+        font-size: clamp(1rem, 6vw + 1rem, 2rem);
+    }
+
+    .call-action{
+        height: 35vh;
+    }
+
+    .logo p{
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    .nav{
+        display: none;
+    }
+    
+    .mobile-nav-toggle{
+        display: block;
+
+    }
+
+    .nav-mobile{
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    .nav-mobile.show{
+        display: block;
+        z-index: 1;
+    }
+
+    .nav-mobile ul li{
+        padding: 2rem 1.5rem 2rem;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid black;
+        
+    }
+
+    .nav-mobile ul li a{
+        font-family: "Geist Mono", sans-serif;
+        font-size: clamp(1rem, 2vw + 1rem, 1.87rem);
+        font-weight: 500;
+        line-height: 110%;
+        letter-spacing: -1%;
+        text-decoration: none;
+        color: #000000;
+        
+    }
+
+    #res{
+        background-color: #808CFD;
+    }
+
+    #res a{
+        color: #FFFFFF;
+    }
+
+    .txt3.card {
+        display: none;
+    }
+
+    .txt4.card{
+        display: block;
+        height: 80vh;
+    }
+
+    .txt4.card img{
+        display: block;
+        height: 80vh;
+    }
+
+    .text-panel{
+        display: block;
+        border-bottom:1px solid black;
+        height: 10%;
+    }
+
+    .text-panel.herocard.format h2 {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .text-panel.herocard.format br{
+        display: none;
+    }
+
+    .text-panel .hero-text button{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 1rem;
+        cursor: pointer;
+    }
+
+    .txt1.card.format h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt2.card.format h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .card.format{
+        padding: 1rem 2rem 0;
+    }
+    
+    .card.format p{
+        padding-bottom: 2rem;
+    }
+
+    .discover-img{
+        display: none;
+    }
+
+    .discover-img2{
+        display: block;
+        height: 60vh;
+    }
+
+    .discover-img2 img{
+        display: block;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .disco-cards{
+        display: block;
+    }
+
+    .container .call-action{
+        margin-top: 24rem;
+    }
+
+    .join-com h1{
+        font-size: clamp(2.5rem, 5vw, 4rem);
+    }
+
+    
+}
+
+@media (max-width: 514px){
+    .headline h1{
+        font-size: clamp(2rem, 4vw + 1rem , 5rem);
+    }
+
+    .hero-section .hero-image img{
+        height: 40vh;
+    }
+
+    .hero-image{
+        border-bottom:1px solid black;
+        height: 40vh;
+    }
+
+    .text-panel{
+        display: block;
+        border-bottom:1px solid black;
+        height: 10%;
+    }
+
+    .text-panel.herocard.format h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt1.card.format h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt2.card.format h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt4.card{
+        display: block;
+    }
+
+    .txt4.card img{
+        height: 80vh;
+    }
+
+    .txt3.card{
+        display: none;
+
+    }
+
+    .card.format{
+        padding: 1rem 2rem 0;
+    }
+    .card.format p{
+        padding-bottom: 2rem;
+    }
+
+    .text-panel.herocard.format br{
+        display: none;
+    }
+
+    .card p{
+        font-size: 1.06rem;
+    }
+
+    .text-panel .hero-text button{
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-size: 0.93rem;
+        font-weight: bold;
+    }
+
+    .container .join-com h1{
+        font-size: 2.5rem;
+    }
+
+    .disco-cards{
+        display: block;
+
+    }
+
+    .discover-img{
+        display: none;
+    }
+
+    .discover-img2{
+        display: block;
+        height: 40vh;
+    }
+
+    .discover-img2 img{
+        height:40vh;
+        width: 100%;
+    }
+
+    .headline2 br{
+        display: none;
+    }
+
+    .headline2 h2{
+        font-size: clamp(2rem, 1vw + 1rem, 2rem);
+        text-align: center;
+    }
+
+    .container .call-action {
+        margin-top:12rem ;
+    }
+
+    
+}
+
+@media (max-width: 500px){
+    .txt4.card{
+        height: 40vh;
+    }
+    .txt4.card img{
+        height: 40vh;
+    }
+
+    .call-action p{
+        font-size: 0.8rem;
+    }
+
+    .call-action h3{
+        font-size: clamp(1rem, 6vw, 2rem);
+    }
+
+    .call-action a button{
+        font-size: 0.8rem;
+    }
+
+    .container .logo-footer p{
+        font-size: clamp(1rem, 7vw, 4rem);
+    }
+
+    .bottom-footer .footer-bottom .footer-infos{
+        font-size: clamp(1rem, 4vw, 2rem);
+    }
+
+    .footer-bottom .footer-list{
+        font-size: clamp(0.7rem, 1vw, 1rem);
+    }
+
+    .bottom-footer{
+        padding-bottom: 1rem;
+    }
+
+    .headline2-container .list p{
+        white-space: normal;
+    }
+    .container .call-action{
+        margin-top: 13rem;
+    }
+}
+
+@media (max-width:420px){
+    .headline h1{
+        font-size: clamp(1.8rem, 4vw, 5rem);
+    }
+
+    .text-panel.herocard.format h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt1.card.format h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt2.card.format h2 {
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    .txt4.card{
+        height: 60vh;
+    }
+    .txt4.card img{
+        height: 60vh;
+    }
+
+    .container .join-com h1{
+        font-size: clamp(2rem, 4vw, 2rem);
+    }
+
+    .headline2.list h2{
+        font-size: clamp(1.8rem, 3vw, 2rem);
+    }
+
+    .headline2-container .list h3{
+        font-size:clamp(1.5rem, 3vw, 2rem)
+    }
+
+    .headline2-container .list p{
+        font-size:clamp(0.89rem, 2vw, 1rem);
+    }
+
+    .container .call-action{
+        margin-top: 12.5rem;
+    }
+
+}
+
+@media (max-width:361px){
+    .headline h1{
+        font-size: clamp(1.6rem, 4vw, 4rem);
+    }
+
+    .text-panel.herocard.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt1.card.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .txt2.card.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+    .txt4.card{
+        height: 60vh;
+    }
+    .txt4.card img{
+        height: 60vh;
+    }
+
+    .container .join-com h1{
+        font-size: clamp(2rem, 4vw, 2rem);
+    }
+
+    .headline2.list h2{
+        font-size: clamp(1.6rem, 3vw, 2rem);
+    }
+
+    .headline2-container .list h3{
+        font-size:clamp(1.5rem, 3vw, 2rem)
+    }
+
+    .headline2-container .list p{
+        font-size:clamp(0.89rem, 2vw, 1rem);
+    }
+
+    .container .call-action{
+        margin-top: 16rem;
+    }
+
+    .container .call-action a button{
+        padding: 0.8rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:344px){
+    
+    .container .head{
+        gap: 2rem;
+        padding: 1rem
+    }
+
+    .container .head .logo{
+        gap: 0.3rem;
+    }
+
+    .container .head .logo p{
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+
+    .headline h1{
+        font-size: clamp(1.5rem, 4vw, 4rem);
+    }
+
+    .text-panel.herocard.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+
+    .txt1.card.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .txt2.card.format h2 {
+        font-size: 1.6rem;
+        padding-bottom: 1rem;
+    }
+    .txt4.card{
+        height: 60vh;
+    }
+    .txt4.card img{
+        height: 60vh;
+    }
+
+    .container .join-com h1{
+        font-size: clamp(1.8rem, 4vw, 2rem);
+    }
+
+    .headline2.list h2{
+        font-size: clamp(1.3rem, 3vw, 2rem);
+    }
+
+    .headline2-container .list h3{
+        font-size:clamp(1.3rem, 3vw, 2rem)
+    }
+
+    .headline2-container .list p{
+        font-size:clamp(0.89rem, 2vw, 1rem);
+        white-space: normal;
+    }
+
+    .container .call-action{
+        margin-top: 15rem;
+    }
+
+    .container .call-action a button{
+        padding: 0.8rem;
+        font-size: 0.7rem;
+    }
+
+    .hero-text.card p{
+        padding-bottom: 1rem;
+    }
+}
+
+
+
